@@ -6,7 +6,7 @@ Data is powered by the [PokéAPI](https://pokeapi.co/).
 ---
 
 ## 🚀 Live Demo
-🔗 [View on Netlify](https://pokemon-app-xroniex2.netlify.app)
+🔗 [View on Render](https://pokemon-app-hjvz.onrender.com)
 
 ---
 
@@ -41,6 +41,6 @@ Data is powered by the [PokéAPI](https://pokeapi.co/).
 Clone the project and install dependencies:
 
 ```bash
-git clone https://github.com/YOUR-USERNAME/pokemon-app.git
+git clone https://github.com/xroniex2/pokemon-app.git
 cd pokemon-app
 npm install
