@@ -1,57 +1,46 @@
-# pokemon-app
+# Pokémon App
 
-This template should help get you started developing with Vue 3 in Vite.
+Frontend coding challenge project built with **Vue 3**, **Vite**, and **Pinia**, styled with **Bootstrap 5**.  
+Data is powered by the [PokéAPI](https://pokeapi.co/).
 
-## Recommended IDE Setup
+---
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
+## 🚀 Live Demo
+🔗 [View on Netlify](https://pokemon-app-xroniex2.netlify.app)
 
-## Customize configuration
+---
 
-See [Vite Configuration Reference](https://vite.dev/config/).
+## 📦 Tech Stack
+- **Vue 3 (Vite)** – frontend framework
+- **Pinia** – state management
+- **Bootstrap 5** – styling & layout
+- **PokéAPI** – Pokémon data source
 
-## Project Setup
+---
 
-```sh
+## ✨ Features
+- 📋 **Pokémon List** with images and Pokédex IDs  
+- 🔍 **Search & filter** by name, nickname, and type  
+- 📖 **Pokémon Detail Page** with:
+  - Official artwork
+  - Pokédex ID & generation
+  - Flavor text description
+  - Types, height, weight, abilities
+  - Base stats with progress bars
+  - Evolution chain (with images)
+- 📝 **Nicknames**:
+  - Add custom nickname to any Pokémon
+  - Persisted in localStorage (survives refresh)
+  - Option to clear nickname
+- 🌙 **Dark theme UI** for a modern look
+
+---
+
+## 🛠 Run Locally
+
+Clone the project and install dependencies:
+
+```bash
+git clone https://github.com/YOUR-USERNAME/pokemon-app.git
+cd pokemon-app
 npm install
-```
-
-### Compile and Hot-Reload for Development
-
-```sh
-npm run dev
-```
-
-### Compile and Minify for Production
-
-```sh
-npm run build
-```
-
-### Run Unit Tests with [Vitest](https://vitest.dev/)
-
-```sh
-npm run test:unit
-```
-
-### Run End-to-End Tests with [Cypress](https://www.cypress.io/)
-
-```sh
-npm run test:e2e:dev
-```
-
-This runs the end-to-end tests against the Vite development server.
-It is much faster than the production build.
-
-But it's still recommended to test the production build with `test:e2e` before deploying (e.g. in CI environments):
-
-```sh
-npm run build
-npm run test:e2e
-```
-
-### Lint with [ESLint](https://eslint.org/)
-
-```sh
-npm run lint
-```
