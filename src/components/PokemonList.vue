@@ -42,7 +42,7 @@
                   ({{ pokemon.name }})
                 </span>
               </h5>
-            <p class="card-text small text-muted">
+            <p class="card-text small text-white">
               #{{ pokemon.id }}
             </p>
           </div>
